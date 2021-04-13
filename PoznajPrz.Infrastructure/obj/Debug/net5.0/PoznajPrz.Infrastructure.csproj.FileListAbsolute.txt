@@ -1,0 +1,17 @@
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Domain.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.AssemblyInfoInputs.cache
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.AssemblyInfo.cs
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Infrastructure.deps.json
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Infrastructure.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\ref\PoznajPrz.Infrastructure.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Infrastructure.pdb
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Domain.pdb
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.csproj.CopyComplete
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\ref\PoznajPrz.Infrastructure.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\obj\Debug\net5.0\PoznajPrz.Infrastructure.pdb
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Application.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Infrastructure\bin\Debug\net5.0\PoznajPrz.Application.pdb

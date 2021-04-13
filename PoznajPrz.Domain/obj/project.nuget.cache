@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Q5v2NzG00nAPgjAGjxYM2a7OdEyXC7TOLNbmRYh+AWHlTZ1BuDt8y5EbfT/JJgvrK2n4XQoW1mkCk58FXFulQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\PoznajPrz\\PoznajPrz\\PoznajPrz.Domain\\PoznajPrz.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mikol\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

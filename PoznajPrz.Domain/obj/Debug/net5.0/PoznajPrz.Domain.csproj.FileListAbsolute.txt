@@ -1,0 +1,12 @@
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\bin\Debug\net5.0\PoznajPrz.Domain.deps.json
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\bin\Debug\net5.0\PoznajPrz.Domain.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\bin\Debug\net5.0\ref\PoznajPrz.Domain.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\bin\Debug\net5.0\PoznajPrz.Domain.pdb
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.AssemblyInfoInputs.cache
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.AssemblyInfo.cs
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\ref\PoznajPrz.Domain.dll
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.pdb
+C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz.Domain\obj\Debug\net5.0\PoznajPrz.Domain.csprojAssemblyReference.cache
