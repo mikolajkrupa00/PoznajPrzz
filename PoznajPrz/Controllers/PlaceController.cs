@@ -2,9 +2,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PoznajPrz.Application.Commands.Places.ConfirmPlace;
 using PoznajPrz.Application.Commands.Places.CreatePlace;
 using PoznajPrz.Application.Commands.Places.DeletePlace;
 using PoznajPrz.Application.Commands.Places.UpdatePlace;
+using PoznajPrz.Application.Queries.Places.GetNotConfirmedPlaces;
 using PoznajPrz.Application.Queries.Places.GetPlace;
 using PoznajPrz.Application.Queries.Places.GetPlaces;
 using System;
@@ -53,5 +55,18 @@ namespace PoznajPrz.API.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> DeletePlace([FromBody] DeletePlaceCommand command)
             => Ok(await _mediator.Send(command));
+
+        [Authorize(Roles = "Admin")]
+        [HttpGet("getNotConfirmedPlaces")]
+        public async Task<IActionResult> GetNotConfirmedPlacesQuery()
+            => Ok(await _mediator.Send(new GetNotConfirmedPlacesQuery()));
+
+        [Authorize(Roles = "Admin")]
+        [HttpPut("confirmPlace/{placeId}")]
+        public async Task<IActionResult> ConfirmPlace([FromRoute] Guid placeId)
+            => Ok(await _mediator.Send(new ConfirmPlaceCommand
+            {
+                PlaceId = placeId
+            }));
     }
 }

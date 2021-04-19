@@ -22,6 +22,7 @@ namespace PoznajPrz.Infrastructure.Entities
         public string Name { get; set; }
         public string Description { get; set; }
         public string Address { get; set; }
+        public bool IsConfirmed { get; set; }
 
         public Guid CategoryId { get; set; }
         public virtual DbPlaceCategory Category { get; set; }
@@ -38,7 +39,8 @@ namespace PoznajPrz.Infrastructure.Entities
                 Description = place.Description,
                 PlaceId = place.PlaceId,
                 Name = place.Name,
-                Latitude = place.Latitude
+                Latitude = place.Latitude,
+                IsConfirmed = false
             };
     }
 }

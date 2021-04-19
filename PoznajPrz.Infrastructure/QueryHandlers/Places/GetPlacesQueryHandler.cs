@@ -21,6 +21,7 @@ namespace PoznajPrz.Infrastructure.QueryHandlers.Places
 
         public async Task<List<PlaceDto>> Handle(GetPlacesQuery request, CancellationToken cancellationToken)
             => await (from p in _context.Places
+                      where p.IsConfirmed
                       join c in _context.Categories on p.CategoryId equals c.PlaceCategoryId
                       join v in _context.Visits.Where(x => x.VisitedById == request.UserId) on p.PlaceId equals v.PlaceId into visit
                       from subv in visit.DefaultIfEmpty()

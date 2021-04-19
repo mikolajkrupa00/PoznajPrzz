@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PoznajPrz.Infrastructure;
 
 namespace PoznajPrz.Infrastructure.Migrations
 {
     [DbContext(typeof(PoznajPrzContext))]
-    partial class PoznajPrzContextModelSnapshot : ModelSnapshot
+    [Migration("20210418232411_IsPlaceConfirmed")]
+    partial class IsPlaceConfirmed
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

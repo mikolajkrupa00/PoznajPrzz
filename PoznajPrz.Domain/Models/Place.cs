@@ -8,7 +8,7 @@ namespace PoznajPrz.Domain.Models
 {
     public class Place
     {
-        public Place(Guid placeId, decimal latitude, decimal attitude, string name, string description, string address, Guid categoryId)
+        public Place(Guid placeId, decimal latitude, decimal attitude, string name, string description, string address, Guid categoryId, bool isConfirmed)
         {
             PlaceId = placeId;
             Latitude = latitude;
@@ -17,6 +17,7 @@ namespace PoznajPrz.Domain.Models
             Description = description;
             Address = address;
             CategoryId = categoryId;
+            IsConfirmed = isConfirmed;
         }
 
         public Guid PlaceId { get; set; }
@@ -26,8 +27,9 @@ namespace PoznajPrz.Domain.Models
         public string Description { get; set; }
         public string Address { get; set; }
         public Guid CategoryId { get; set; }
+        public bool IsConfirmed { get; set; }
 
         public static Place Create(decimal latitude, decimal attitude, string name, string description, string address, Guid categoryId)
-            => new Place(Guid.NewGuid(), latitude, attitude, name, description, address, categoryId);
+            => new Place(Guid.NewGuid(), latitude, attitude, name, description, address, categoryId, false);
     }
 }
