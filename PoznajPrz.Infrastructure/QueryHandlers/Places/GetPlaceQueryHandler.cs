@@ -24,7 +24,7 @@ namespace PoznajPrz.Infrastructure.QueryHandlers.Places
                       join c in _context.Categories on p.CategoryId equals c.PlaceCategoryId
                       where p.PlaceId == request.PlaceId
                       select new PlaceDto(p.PlaceId, p.Latitude, p.Attitude, p.Name, p.Description,
-                      p.Address, c.Name))
+                      p.Address, c.Name, p.Zoom))
             .FirstAsync();
     }
 }

@@ -23,7 +23,6 @@ C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.Generat
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.AssemblyInfoInputs.cache
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.AssemblyInfo.cs
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.csproj.CoreCompileInputs.cache
-C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\PoznajPrz.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\staticwebassets\PoznajPrz.API.StaticWebAssets.Manifest.cache
 C:\Projects\PoznajPrz\PoznajPrz\PoznajPrz\obj\Debug\net5.0\staticwebassets\PoznajPrz.API.StaticWebAssets.xml

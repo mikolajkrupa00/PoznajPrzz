@@ -26,7 +26,7 @@ namespace PoznajPrz.Infrastructure.QueryHandlers.Places
                       join v in _context.Visits.Where(x => x.VisitedById == request.UserId) on p.PlaceId equals v.PlaceId into visit
                       from subv in visit.DefaultIfEmpty()
                       select new PlaceDto(p.PlaceId, p.Latitude, p.Attitude, p.Name, p.Description, p.Address, c.Name, 
-                          subv != null))
+                          subv != null, p.Zoom))
             .ToListAsync();
     }
 }

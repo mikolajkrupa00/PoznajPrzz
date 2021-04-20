@@ -9,7 +9,7 @@ namespace PoznajPrz.Application.Queries.Places.GetPlace
     public class PlaceDto
     {
         public PlaceDto(Guid placeId, decimal latitude, decimal attitude, string name, string description, string address,
-            string categoryName)
+            string categoryName, int zoom)
         {
             PlaceId = placeId;
             Latitude = latitude;
@@ -18,6 +18,7 @@ namespace PoznajPrz.Application.Queries.Places.GetPlace
             Description = description;
             Address = address;
             CategoryName = categoryName;
+            Zoom = zoom;
         }
 
         public Guid PlaceId { get; set; }
@@ -27,5 +28,6 @@ namespace PoznajPrz.Application.Queries.Places.GetPlace
         public string Description { get; set; }
         public string Address { get; set; }
         public string CategoryName { get; set; }
+        public int Zoom { get; set; }
     }
 }

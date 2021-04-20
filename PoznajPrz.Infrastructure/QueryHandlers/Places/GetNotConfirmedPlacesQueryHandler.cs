@@ -25,7 +25,7 @@ namespace PoznajPrz.Infrastructure.QueryHandlers.Places
                       join c in _context.Categories on p.CategoryId equals c.PlaceCategoryId
                       join v in _context.Visits on p.PlaceId equals v.PlaceId into visit
                       from subv in visit.DefaultIfEmpty()
-                      select new PlaceDto(p.PlaceId, p.Name, p.Description, p.Address, c.Name))
+                      select new PlaceDto(p.PlaceId, p.Name, p.Description, p.Address, c.Name, p.Zoom))
             .ToListAsync();
     }
 }
